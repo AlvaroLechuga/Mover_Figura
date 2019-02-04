@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".GuardarPuntuacion">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Guardar Resultados"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtPuntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Puntuación: "
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/txtPuntuacion"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8030E"
+        android:shadowDx="4"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="Enviar"
+        android:textColor="#FF1919"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+</RelativeLayout>
